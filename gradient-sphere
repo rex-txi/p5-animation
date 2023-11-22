@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
-    <title>Generative Art</title>
-</head>
-<body>
-    <script>
-        let _bgWidth;
+let _bgWidth;
 let _minWidth;
 
 function setup() {
@@ -51,6 +43,3 @@ function drawShape(r, centx, centy, ang, initH) {
   endShape(CLOSE);
   pop();
 }
-    </script>
-</body>
-</html>
